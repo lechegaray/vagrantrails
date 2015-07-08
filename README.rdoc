@@ -11,6 +11,8 @@ Installation:
 * <tt>vagrant ssh</tt>
 * <tt>cd application</tt>
 * <tt>bundle install</tt>
+* <tt>sudo npm install -g bower</tt>
+* <tt>rake bower:install</tt>
 * <tt>rails s -b 0.0.0.0</tt>
 * On the host machine, navigate to localhost:3000
 

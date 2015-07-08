@@ -1,0 +1,2 @@
+alma = angular.module('alma',[
+])
