@@ -3,11 +3,14 @@
 This is a default environment to start a Ruby on Rails project using a Vagrant instance.
 
 Installation:
-* Download lastest version of Vagrant https://www.vagrantup.com/downloads.html 
+* Download latest version of Vagrant https://www.vagrantup.com/downloads.html
+* open up your terminal:
 * <tt>vagrant box add ubuntu/trusty64</tt> (downloads VM, may take a while)
 * <tt>git clone https://github.com/lechegaray/vagrantrails.git</tt>
 * <tt>vagrant up</tt>
 * <tt>vagrant ssh</tt>
+* <tt>cd application</tt>
+* <tt>bundle install</tt>
 * <tt>rails s -b 0.0.0.0</tt>
 * On the host machine, navigate to localhost:3000
 
