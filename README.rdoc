@@ -13,7 +13,8 @@ Installation:
 * <tt>bundle install</tt> installs all the gems we have in our gemfile
 * <tt>sudo npm install -g bower</tt> installs dependency manager for angular
 * <tt>rake db:create</tt> connects rails to mysql
-* <tt>rake bower:install</tt> uses bower to install all dependencies 
+* <tt>rake bower:install</tt> uses bower to install all dependencies
+* <tt>wget -O- https://toolbelt.heroku.com/install-ubuntu.sh | sh</tt>
 * <tt>rails s -b 0.0.0.0</tt> starts out server
 * On the host machine, navigate to localhost:3000
 
