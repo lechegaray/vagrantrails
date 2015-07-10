@@ -1,2 +1,0 @@
-# almapp
-ALM App

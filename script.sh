@@ -2,8 +2,8 @@
 
 cd /vagrant
 
-debconf-set-selections <<< 'mysql-server mysql-server/root_password password root'
-debconf-set-selections <<< 'mysql-server mysql-server/root_password_again password root'
+debconf-set-selections <<< 'mysql-server mysql-server/root_password password dvl_123'
+debconf-set-selections <<< 'mysql-server mysql-server/root_password_again password dvl_123'
 sudo apt-get -y update
 sudo apt-get -y install -y mysql-server
 

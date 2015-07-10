@@ -9,7 +9,7 @@ Installation:
 * <tt>git clone https://github.com/lechegaray/vagrantrails.git</tt> downloads our preconfigured app
 * <tt>vagrant up</tt> creates the vagrant instance
 * <tt>vagrant ssh</tt> logs into vagrant instance
-* <tt>cd alma</tt> (moves into our application directory)
+* <tt>cd almapp</tt> (moves into our application directory)
 * <tt>bundle install</tt>
 * <tt>rake db:create</tt> connects rails to mysql
 * <tt>rake bower:install</tt> uses bower to install all dependencies (generates vendor/assets/.bowerrc file, if there are any permission errors delete this file and rerun command)
