@@ -15,3 +15,8 @@ Installation:
 * <tt>rake bower:install</tt> uses bower to install all dependencies (generates vendor/assets/.bowerrc file, if there are any permission errors delete this file and rerun command)
 * <tt>rails s -b 0.0.0.0</tt> starts out server
 * On the host machine, navigate to localhost:3000
+
+
+GIT AND SSH SETUP:
+* On your host machine, delete your .git folder in the root directory, then CD in alma, and git init, put in your information/ More instructions to come.
+* https://help.github.com/articles/generating-ssh-keys/
