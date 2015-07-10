@@ -19,4 +19,4 @@ Installation:
 
 GIT AND SSH SETUP:
 * On your host machine, delete your .git folder in the root directory, then CD in alma, and git init, put in your information/ More instructions to come.
-* https://help.github.com/articles/generating-ssh-keys/
+* ~/.ssh/id_rsa go to here 
