@@ -1,0 +1,18 @@
+require 'capistrano/setup'
+require 'capistrano/deploy'
+require 'capistrano/bundler'
+require 'capistrano/rails'
+# require 'capistrano-knife-solo'
+
+# The following require lets Capistrano use rbenv to
+# manage Rubies. I'd rather not use it at all, on the
+# advice of Lee Hambly, the maintainer of Cap. But, if
+# we want to install Ruby faster than building from
+# source, we need to use rbenv.
+# require 'capistrano/rbenv'
+
+# Loads custom tasks from 'lib/capistrano/tasks' if you have any defined.
+Dir.glob('lib/capistrano/tasks/*.rake').each { |r| import r }
+
+# Loads helpers from 'lib/capistrano'
+Dir.glob('lib/capistrano/**/*.rb').each { |r| import r }
