@@ -25,9 +25,9 @@ echo "flush privileges" | mysql -uroot -proot
 # echo "GRANT ALL ON almapp_production.* TO 'almappdbuser'@'localhost'" | mysql -uroot -proot
 # echo "flush privileges" | mysql -uroot -proot
 
-# cd alma
-# sudo npm install -g bower
-# wget -O- https://toolbelt.heroku.com/install-ubuntu.sh | sh
+cd alma
+sudo npm install -g bower
+wget -O- https://toolbelt.heroku.com/install-ubuntu.sh | sh
 
 echo "GENERATING GITHUB KEY: "
 ssh-keygen -t rsa -N "" -f ~/.ssh/id_rsa -b 4096 -C "infrastructure@devellocus.com"
