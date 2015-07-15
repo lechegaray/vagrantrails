@@ -8,6 +8,7 @@ Installation:
 * <tt>vagrant box add ubuntu/trusty64</tt> (downloads VM, may take a while)
 * <tt>git clone https://github.com/lechegaray/vagrantrails.git</tt> downloads our preconfigured environment
 * <tt>cd vagrantrails</tt>
+* <tt>rm -rf .git </tt> removes the repo so it doesnt interfere with the vagrant's app git
 * <tt>vagrant up</tt> creates the vagrant instance
 * <tt>vagrant ssh</tt>
 * <tt>git clone https://github.com/devellocus/almapp.git</tt>
@@ -22,5 +23,10 @@ Installation:
 *you make have to set your username and email before you can commit anything*
 *look below for installing your keys to your github profile*
 
-GIT AND SSH SETUP:
+SSH KEY IN YOUR GITHUB PROFILE:
+* sudo root 
 * cd ~/.ssh/id_rsa go to here (inside the vagrant vm)
+* copy key out of this file
+* https://github.com/settings/ssh
+* Add SSH key
+* Now commit and push
