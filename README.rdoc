@@ -9,7 +9,7 @@ Installation:
 * <tt>git clone https://github.com/lechegaray/vagrantrails.git</tt> downloads our preconfigured environment
 * <tt>cd vagrantrails</tt>
 * <tt>vagrant up</tt> creates the vagrant instance
-* <tt>vagrant ssh<tt>
+* <tt>vagrant ssh</tt>
 * <tt>git clone https://github.com/devellocus/almapp.git</tt>
 * <tt>cd almapp</tt> (moves into our application directory)
 * <tt>bundle install</tt>
@@ -18,7 +18,9 @@ Installation:
 * <tt>rails s -b 0.0.0.0</tt> starts out server
 * On the host machine, navigate to localhost:3000
 
+*YOU SHOULD COMMIT FROM INSIDE THE VAGRANT INSTANCE*
+*you make have to set your username and email before you can commit anything*
+*look below for installing your keys to your github profile*
 
 GIT AND SSH SETUP:
-* On your host machine, delete your .git folder in the root directory, then CD in alma, and git init, put in your information/ More instructions to come.
-* ~/.ssh/id_rsa go to here 
+* cd ~/.ssh/id_rsa go to here (inside the vagrant vm)
