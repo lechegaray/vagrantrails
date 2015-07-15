@@ -1,8 +1,8 @@
 #README
 
-##This is a default environment to start a Ruby on Rails w/ Angular project using a Vagrant instance.
+###This is a default environment to start a Ruby on Rails w/ Angular project using a Vagrant instance.
 
-###Installation:
+####Installation:
 1. Download latest version of Vagrant https://www.vagrantup.com/downloads.html
 2. open up your terminal:
 3. <tt>vagrant box add ubuntu/trusty64</tt> (downloads VM, may take a while)
@@ -19,11 +19,11 @@
 14. <tt>rails s -b 0.0.0.0</tt> starts out server
 15. On the host machine, navigate to localhost:3000
 
-##YOU SHOULD COMMIT FROM INSIDE THE VAGRANT INSTANCE*
-* you make have to set your username and email before you can commit anything*
-* look below for installing your keys to your github profile*
+###YOU SHOULD COMMIT FROM INSIDE THE VAGRANT INSTANCE
+* you make have to set your username and email before you can commit anything
+* look below for installing your keys to your github profile
 
-##SSH KEY IN YOUR GITHUB PROFILE:
+###SSH KEY IN YOUR GITHUB PROFILE:
 * sudo root 
 * cd ~/.ssh/id_rsa go to here (inside the vagrant vm)
 * copy key out of this file
