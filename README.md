@@ -29,4 +29,4 @@ SSH KEY IN YOUR GITHUB PROFILE:
 * copy key out of this file
 * https://github.com/settings/ssh
 * Add SSH key
-* Now commit and push
+* Now commit and push (you may have to enter your email and name the first time)
