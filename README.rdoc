@@ -6,9 +6,11 @@ Installation:
 * Download latest version of Vagrant https://www.vagrantup.com/downloads.html
 * open up your terminal:
 * <tt>vagrant box add ubuntu/trusty64</tt> (downloads VM, may take a while)
-* <tt>git clone https://github.com/lechegaray/vagrantrails.git</tt> downloads our preconfigured app
+* <tt>git clone https://github.com/lechegaray/vagrantrails.git</tt> downloads our preconfigured environment
+* <tt>cd vagrantrails</tt>
 * <tt>vagrant up</tt> creates the vagrant instance
-* <tt>vagrant ssh</tt> logs into vagrant instance
+* <tt>vagrant ssh<tt>
+* <tt>git clone https://github.com/devellocus/almapp.git</tt>
 * <tt>cd almapp</tt> (moves into our application directory)
 * <tt>bundle install</tt>
 * <tt>rake db:create</tt> connects rails to mysql
