@@ -15,6 +15,7 @@
 * <tt>bundle install</tt>
 * <tt>rake db:create</tt> connects rails to mysql
 * <tt>rake db:migrate</tt>
+* <tt>rake db:migrate RAILS_ENV=test</tt>
 * <tt>rails s -b 0.0.0.0</tt> starts out server
 * On the host machine, navigate to localhost:3000
 
