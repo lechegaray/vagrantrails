@@ -9,8 +9,8 @@ sudo apt-get -y install -y mysql-server
 
 echo "Creating non-root user for app ..."
 echo "CREATE USER 'almappdbuser'@'localhost' IDENTIFIED BY 'dvl_123'" | mysql -uroot -proot
-echo "GRANT CREATE ON *.* TO 'almappdbuser'@'localhost'" | mysql -uroot -proot
-echo "flush privileges" | mysql -uroot -proot
+echo "GRANT ALL ON *.* TO 'almappdbuser'@'localhost'" | mysql -uroot -proot
+# echo "flush privileges" | mysql -uroot -proot
 
 # echo "Creating databases ..."
 # echo "CREATE DATABASE almapp_development" | mysql -uroot -proot
